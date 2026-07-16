@@ -1,4 +1,4 @@
-![Skill X](media/banner.png)
+![Skill X](media/skill-x.gif)
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-4-purple.svg)](#skills-at-a-glance)
@@ -289,7 +289,7 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 <br>
 
-![Self-evolving: detect, evidence, constitution check, apply, verify](media/skill-x.gif)
+![Self-evolving: detect, evidence, constitution check, apply, verify](media/banner.png)
 
 <br>
 
