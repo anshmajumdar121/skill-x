@@ -8,7 +8,7 @@ A small, composable collection of agent skills for code, research, and
 multi-agent orchestration. Each skill is self-contained, evidence-based,
 and ships with progressive-disclosure reference docs.
 
-> Built by [anshmajumdar]([https://github.com/anshmajumdar](https://github.com/anshmajumdar121)). Skills
+> Built by [anshmajumdar](https://github.com/anshmajumdar121). Skills
 > refined from public research, the GPT-5.6 Sol execution
 > blueprint, and the [BuilderIO/skills](https://github.com/BuilderIO/skills)
 > collection.
