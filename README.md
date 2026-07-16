@@ -1,5 +1,3 @@
-# skill-x
-
 ![Skill X](media/banner.png)
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
