@@ -287,6 +287,12 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 ## Self-Evolution (only on `/super-skill`)
 
+<br>
+
+![Self-evolving: detect, evidence, constitution check, apply, verify](media/skill-x.gif)
+
+<br>
+
 `super-skill` is the only skill that evolves itself. The protocol
 lives in
 [`skills/super-skill/references/self-evolution.md`](skills/super-skill/references/self-evolution.md).
