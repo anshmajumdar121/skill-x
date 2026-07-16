@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this collection in research or production, please cite it as below."
+type: software
+title: "skill-x: A composable collection of agent skills"
+date-released: 2026-07-17
+license: MIT
+authors:
+  - family-names: Majumdar
+    given-names: Ansh
+    alias: anshmajumdar
+repository-code: "https://github.com/anshmajumdar/skill-x"
+keywords:
+  - agent
+  - skills
+  - llm
+  - coding-agent
+  - interpretability
+  - linear-probes
+  - delegation
+  - multi-agent
+  - self-evolution
+description: |
+  skill-x is a small, composable collection of agent skills
+  covering four areas: full rigor task execution
+  (think-like-gpt-5-6), delegation with cheap subagents
+  (efficient-fable), mechanistic interpretability of coding-agent
+  LLMs via linear probes (skill-zero), and a self-evolving rigor
+  + delegation synthesis (super-skill).
+references:
+  - type: article
+    title: "Latent Programming Horizons in Coding Agents"
+    authors:
+      - family-names: Silva
+        given-names: André
+      - family-names: Tu
+        given-names: Han
+      - family-names: Monperrus
+        given-names: Martin
+    journal: "arXiv preprint"
+    year: 2026
+    id: "arXiv:2607.05188"
+  - type: software
+    title: "BuilderIO/skills (efficient-fable ancestor)"
+    repository: "https://github.com/BuilderIO/skills"

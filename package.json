@@ -1,0 +1,32 @@
+{
+  "name": "skill-x",
+  "version": "1.0.0",
+  "description": "A composable collection of agent skills: rigor, delegation, mechanistic interpretability, and self-evolution.",
+  "license": "MIT",
+  "author": "anshmajumdar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshmajumdar/skill-x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anshmajumdar/skill-x/issues"
+  },
+  "keywords": [
+    "agent",
+    "skills",
+    "llm",
+    "coding-agent",
+    "interpretability",
+    "linear-probes",
+    "delegation",
+    "multi-agent",
+    "self-evolution"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "lint": "bash scripts/lint-all.sh",
+    "lint:skill": "node \"$(mavis skill show skill-creator 2>/dev/null | python3 -c 'import json,sys;print(json.load(sys.stdin)[\"location\"])' 2>/dev/null | xargs dirname)/scripts/lint-skill.js\""
+  }
+}

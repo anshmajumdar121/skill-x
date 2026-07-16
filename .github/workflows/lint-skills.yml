@@ -1,0 +1,39 @@
+name: lint-skills
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install mavis (provides skill linter)
+        run: |
+          # The mavis skill linter ships with the mavis CLI.
+          # This CI step assumes the runner has mavis available;
+          # for the public GitHub Actions runner, we run a
+          # local equivalent of the lint.
+          if ! command -v mavis &> /dev/null; then
+            echo "mavis not installed in CI; using local lint script only"
+          else
+            mavis --version
+          fi
+
+      - name: Run local lint script
+        run: |
+          chmod +x scripts/lint-all.sh
+          ./scripts/lint-all.sh

@@ -1,0 +1,23 @@
+# Auto-detect text files
+* text=auto
+
+# Force LF line endings for skill files (skills are markdown; CRLF breaks them)
+*.md text eol=lf
+*.markdown text eol=lf
+
+# Skill files
+SKILL.md text eol=lf
+
+# Force LF for shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg text
+*.ico binary
+*.pdf binary
