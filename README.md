@@ -1,5 +1,7 @@
 # skill-x
 
+![Skill X](media/banner.png)
+
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-4-purple.svg)](#skills-at-a-glance)
 [![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](skills/super-skill/references/self-evolution.md)
