@@ -1,0 +1,52 @@
+name: Bug report
+description: Report a problem with a skill, install path, or docs
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Which skill is affected?
+      options:
+        - think-like-gpt-5-6
+        - efficient-fable
+        - skill-zero
+        - super-skill
+        - Not skill-specific (README, install, plugin manifest, etc.)
+    validations:
+      required: true
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Which agent are you using?
+      options:
+        - Claude Code
+        - Codex
+        - GitHub Copilot
+        - OpenCode
+        - mavis
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Install skill X via ...
+        2. Trigger it with ...
+        3. See error / wrong behavior ...
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Skill X commit/version (if known)
+    validations:
+      required: false

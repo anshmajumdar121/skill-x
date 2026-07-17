@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest a new skill, a change to an existing skill, or a docs improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What's missing or awkward today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should change — a new skill, an edit to an existing SKILL.md, a docs addition?
+    validations:
+      required: true
+  - type: checkboxes
+    id: constitution-check
+    attributes:
+      label: If this touches `super-skill`, does it satisfy the 7-clause constitution?
+      description: See skills/super-skill/references/self-evolution.md
+      options:
+        - label: Evidence-based (cites a paper, doc, or verified observation)
+        - label: Bounded scope (rigor + delegation frameworks only)
+        - label: Conservative (no speculative additions)
+    validations:
+      required: false
