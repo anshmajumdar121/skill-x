@@ -19,7 +19,7 @@ und enthält Referenzdokumente nach dem Prinzip der schrittweisen Offenlegung.
 
 ```bash
 # Clone the repo
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Pick a skill to install (manual copy)
@@ -246,14 +246,14 @@ installieren kannst:
 
 ```bash
 # Claude Code
-/plugin marketplace add anshmajumdar/skill-x
+/plugin marketplace add anshmajumdar121/skill-x
 /plugin install skill-x@skill-x
 
 # Codex
-codex plugin install anshmajumdar/skill-x
+codex plugin install anshmajumdar121/skill-x
 
 # Or generic npx (Vercel's skills CLI)
-npx skills@latest add anshmajumdar/skill-x --skill super-skill
+npx skills@latest add anshmajumdar121/skill-x --skill super-skill
 ```
 
 Siehe [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) für die vollständige
@@ -264,7 +264,7 @@ sowie den generischen `cp -r`-Fallback).
 
 ```bash
 # Clone
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Install one

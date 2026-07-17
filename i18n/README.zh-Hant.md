@@ -14,7 +14,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Pick a skill to install (manual copy)
@@ -176,14 +176,14 @@ mavis skill list
 
 ```bash
 # Claude Code
-/plugin marketplace add anshmajumdar/skill-x
+/plugin marketplace add anshmajumdar121/skill-x
 /plugin install skill-x@skill-x
 
 # Codex
-codex plugin install anshmajumdar/skill-x
+codex plugin install anshmajumdar121/skill-x
 
 # Or generic npx (Vercel's skills CLI)
-npx skills@latest add anshmajumdar/skill-x --skill super-skill
+npx skills@latest add anshmajumdar121/skill-x --skill super-skill
 ```
 
 完整的各代理安裝對照表（Claude Code、Codex、OpenCode、Copilot，以及通用的 `cp -r` 備用方式）請見 [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md)。
@@ -192,7 +192,7 @@ npx skills@latest add anshmajumdar/skill-x --skill super-skill
 
 ```bash
 # Clone
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Install one

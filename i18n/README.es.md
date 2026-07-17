@@ -19,7 +19,7 @@ y se entrega con documentación de referencia de divulgación progresiva.
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Elegir una skill para instalar (copia manual)
@@ -255,14 +255,14 @@ un solo comando:
 
 ```bash
 # Claude Code
-/plugin marketplace add anshmajumdar/skill-x
+/plugin marketplace add anshmajumdar121/skill-x
 /plugin install skill-x@skill-x
 
 # Codex
-codex plugin install anshmajumdar/skill-x
+codex plugin install anshmajumdar121/skill-x
 
 # O npx genérico (CLI de skills de Vercel)
-npx skills@latest add anshmajumdar/skill-x --skill super-skill
+npx skills@latest add anshmajumdar121/skill-x --skill super-skill
 ```
 
 Consulta [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) para la matriz completa
@@ -273,7 +273,7 @@ el respaldo genérico `cp -r`).
 
 ```bash
 # Clonar
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Instalar una

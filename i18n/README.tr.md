@@ -20,7 +20,7 @@ referans dokümanlarıyla birlikte gelir.
 
 ```bash
 # Depoyu klonlayın
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Kurulacak bir skill seçin (manuel kopyalama)
@@ -246,14 +246,14 @@ eklenti marketi** ve bir **Codex eklentisi** olarak sunulmaktadır:
 
 ```bash
 # Claude Code
-/plugin marketplace add anshmajumdar/skill-x
+/plugin marketplace add anshmajumdar121/skill-x
 /plugin install skill-x@skill-x
 
 # Codex
-codex plugin install anshmajumdar/skill-x
+codex plugin install anshmajumdar121/skill-x
 
 # Veya genel npx (Vercel'in skills CLI'ı)
-npx skills@latest add anshmajumdar/skill-x --skill super-skill
+npx skills@latest add anshmajumdar121/skill-x --skill super-skill
 ```
 
 Ajan başına tam kurulum matrisi için (Claude Code, Codex, OpenCode,
@@ -264,7 +264,7 @@ Copilot, ayrıca genel `cp -r` yedek yöntemi)
 
 ```bash
 # Klonlayın
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Birini kurun

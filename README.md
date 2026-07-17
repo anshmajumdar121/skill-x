@@ -1,5 +1,7 @@
 
 
+# Skill X — Agent Skills for Claude Code, Codex & GitHub Copilot
+
 ![Skill X](media/skill-x.gif)
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -7,9 +9,12 @@
 [![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](skills/super-skill/references/self-evolution.md)
 [![English](https://img.shields.io/badge/English-Read-2b2b2b)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](i18n/README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](i18n/README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](i18n/README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](i18n/README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](i18n/README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](i18n/README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](i18n/README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](i18n/README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](i18n/README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](i18n/README.ru.md)
 
-A small, composable collection of agent skills for code, research, and
-multi-agent orchestration. Each skill is self-contained, evidence-based,
-and ships with progressive-disclosure reference docs.
+**Skill X** is an open-source collection of **agent skills for Claude
+Code, Codex, GitHub Copilot, and other coding agents**. It helps agents
+work with **GPT-5.6-style execution rigor**, **multi-agent delegation**,
+**coding-agent interpretability with linear probes**, and
+**self-evolving workflows**. Use it when you want more reliable coding,
+research, and orchestration behavior from agentic tools.
 
 > Built by [anshmajumdar](https://github.com/anshmajumdar121). Skills
 > refined from public research, the GPT-5.6 Sol execution
@@ -20,7 +25,7 @@ and ships with progressive-disclosure reference docs.
 
 ```bash
 # Clone the repo
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Pick a skill to install (manual copy)
@@ -239,14 +244,14 @@ This repo ships as a **Claude Code plugin marketplace** and a
 
 ```bash
 # Claude Code
-/plugin marketplace add anshmajumdar/skill-x
+/plugin marketplace add anshmajumdar121/skill-x
 /plugin install skill-x@skill-x
 
 # Codex
-codex plugin install anshmajumdar/skill-x
+codex plugin install anshmajumdar121/skill-x
 
 # Or generic npx (Vercel's skills CLI)
-npx skills@latest add anshmajumdar/skill-x --skill super-skill
+npx skills@latest add anshmajumdar121/skill-x --skill super-skill
 ```
 
 See [PLUGIN_INSTALL.md](PLUGIN_INSTALL.md) for the full per-agent
@@ -257,7 +262,7 @@ generic `cp -r` fallback).
 
 ```bash
 # Clone
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Install one
@@ -315,6 +320,42 @@ Triggers:
 The 5-step procedure: Detect → Evidence → Constitution check
 (all 7 clauses) → Apply → Verify (re-lint). The changelog at the
 top of `super-skill/SKILL.md` records every change.
+
+## FAQ
+
+**What is the `think-like-gpt-5-6` skill?**
+A GPT-5.6-style execution-rigor skill for coding agents. It applies a
+7-step Observe → Interpret → Decide → Act → Verify → Repair → Record
+loop, 10 governing principles, and a pre-delivery checklist to any
+non-trivial task, so the agent produces auditable, verified output
+instead of a fluent black-box answer.
+
+**Does Skill X work with Claude Code, Codex, and GitHub Copilot?**
+Yes. Skill X ships a Claude Code plugin marketplace
+(`.claude-plugin/marketplace.json`) and a Codex plugin
+(`.codex-plugin/plugin.json`), plus manual install paths that work with
+any agent that reads a skills directory, including GitHub Copilot's
+`.github/skills/` convention. See [Install](#install) below.
+
+**How is `efficient-fable` different from other delegation patterns?**
+It generalizes the delegation pattern beyond a single agent: a
+high-cost frontier model acts as orchestrator/judge, cheap subagents
+handle bounded heavy lifting, and a vetting protocol requires every
+subagent report to be independently re-verified before it's trusted.
+
+**What does `skill-zero` actually do?**
+It's a specialist skill for **coding-agent interpretability**: linear
+probes on the residual stream of a coding-agent LLM, used to predict
+edit outcomes, detect regressions, and see up to ~25 steps into the
+agent's plan before it fails. Based on Silva, Tu & Monperrus 2026
+([arXiv:2607.05188](https://arxiv.org/abs/2607.05188)).
+
+**What makes `super-skill` "self-evolving"?**
+It can revise its own content over time under a strict 7-clause
+constitution (evidence-based, bounded scope, conservative, quality
+floor, reversible, no-garbage-filter, privacy) — every change is
+evidence-cited and logged in a changelog, and any clause failing
+rejects the change outright.
 
 ## Contributing
 

@@ -20,7 +20,7 @@ divulgation progressive.
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # Choisir un skill à installer (copie manuelle)
@@ -260,14 +260,14 @@ commande :
 
 ```bash
 # Claude Code
-/plugin marketplace add anshmajumdar/skill-x
+/plugin marketplace add anshmajumdar121/skill-x
 /plugin install skill-x@skill-x
 
 # Codex
-codex plugin install anshmajumdar/skill-x
+codex plugin install anshmajumdar121/skill-x
 
 # Ou npx générique (le CLI de skills de Vercel)
-npx skills@latest add anshmajumdar/skill-x --skill super-skill
+npx skills@latest add anshmajumdar121/skill-x --skill super-skill
 ```
 
 Voir [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) pour la matrice
@@ -278,7 +278,7 @@ Copilot, plus le repli générique `cp -r`).
 
 ```bash
 # Cloner
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # En installer un

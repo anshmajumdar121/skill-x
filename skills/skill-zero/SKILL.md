@@ -1,23 +1,19 @@
 ---
 name: skill-zero
 description: |
-  Apply the combined execution framework + domain knowledge for complex
-  tasks. Two operating modes: (1) **General mode** — use the GPT-5.6 Sol
-  7-step loop, 10 principles, 9-stage architecture, task classification,
-  risk register, validation layers, acceptance/rejection criteria,
-  adversarial review, and pre-delivery checklist for any non-trivial
-  task; (2) **Coding-agent interpretability mode** — when the task
-  involves probing hidden states of a coding agent, predicting edit
-  outcomes, latent programming horizons, mechanistic interpretability of
-  LLMs working on code, or building agent monitors / steering, switch
-  into the linear-probe procedure (Silva, Tu, Monperrus 2026) with the
-  expected AUC numbers, horizon k≈25, mid-layer inverted-U, and
-  cross-benchmark transfer. Trigger when the user says "skill zero",
-  "use the super framework", "think like GPT-5.6 + interpret the agent",
-  or any complex multi-step task that benefits from auditable artifacts
-  AND domain-specific depth. Do NOT trigger for trivial single-step
-  questions, or for general LLM interpretability unrelated to coding
-  agents.
+  Use this skill when the task involves coding-agent interpretability,
+  hidden states, residual streams, linear probes, latent programming
+  horizons, edit-outcome prediction, or monitor-and-steer workflows for
+  coding agents. Applies the linear-probe procedure (Silva, Tu,
+  Monperrus 2026) with expected AUC numbers, horizon k≈25, mid-layer
+  inverted-U, and cross-benchmark transfer. Trigger when the user says
+  "skill zero", "interpret the coding agent", "probe the agent's hidden
+  states", or asks to predict/monitor a coding agent's edit outcomes.
+  Do NOT trigger for general non-trivial tasks without an
+  interpretability angle — use `think-like-gpt-5-6` or `super-skill`
+  for those instead. This skill also contains a legacy General-mode
+  rigor framework in its body for backward compatibility; new callers
+  should prefer `think-like-gpt-5-6` for that use case.
 ---
 
 # Skill ZERO

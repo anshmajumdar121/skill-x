@@ -16,7 +16,7 @@
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # インストールするスキルを選ぶ（手動コピー）
@@ -188,14 +188,14 @@ Silva, Tu & Monperrus 2026 ([arXiv:2607.05188](https://arxiv.org/abs/2607.05188)
 
 ```bash
 # Claude Code
-/plugin marketplace add anshmajumdar/skill-x
+/plugin marketplace add anshmajumdar121/skill-x
 /plugin install skill-x@skill-x
 
 # Codex
-codex plugin install anshmajumdar/skill-x
+codex plugin install anshmajumdar121/skill-x
 
 # または汎用の npx（Vercel の skills CLI）
-npx skills@latest add anshmajumdar/skill-x --skill super-skill
+npx skills@latest add anshmajumdar121/skill-x --skill super-skill
 ```
 
 エージェントごとの完全なインストール一覧（Claude Code、Codex、OpenCode、Copilot、そして汎用の
@@ -205,7 +205,7 @@ npx skills@latest add anshmajumdar/skill-x --skill super-skill
 
 ```bash
 # クローン
-git clone https://github.com/anshmajumdar/skill-x.git
+git clone https://github.com/anshmajumdar121/skill-x.git
 cd skill-x
 
 # 1つだけインストール
