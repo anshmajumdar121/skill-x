@@ -1,10 +1,10 @@
-[![English](https://img.shields.io/badge/English-Read-2b2b2b)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](README.ru.md)
+[![English](https://img.shields.io/badge/English-Read-2b2b2b)](../README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](README.ru.md)
 
-![Skill X](media/skill-x.gif)
+![Skill X](../media/skill-x.gif)
 
-[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
 [![Skills](https://img.shields.io/badge/skills-4-purple.svg)](#skills-at-a-glance)
-[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](skills/super-skill/references/self-evolution.md)
+[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](../skills/super-skill/references/self-evolution.md)
 
 Kod, araştırma ve çoklu-ajan orkestrasyonu için küçük, birleştirilebilir
 bir agent skill koleksiyonu. Her skill kendi kendine yeterlidir, kanıta
@@ -45,10 +45,10 @@ mavis skill list
 
 | Skill | Satır | Ne yapar |
 |---|---|---|
-| [`think-like-gpt-5-6`](skills/think-like-gpt-5-6/SKILL.md) | 1.547 | Tam titizlik çerçevesi: 7 adımlı döngü, 10 prensip, 20 satırlık risk kaydı, 8 doğrulama katmanı, 6 kabul + 10 red kriteri, 18 çekişmeli (adversarial) inceleme sorusu, 7 bölümlük teslim-öncesi kontrol listesi. Basit olmayan her görev için en iyisi. |
-| [`efficient-fable`](skills/efficient-fable/SKILL.md) | 302 | Delegasyon deseni: orkestratör + ucuz alt-ajanlar. 5 adımlı desen, devir teslim (handoff) paketi formatı, doğrulama protokolü, paralelleştirilebilir işlerde 3-5 kat daha ucuz + 2-4 kat daha hızlı. |
-| [`skill-zero`](skills/skill-zero/SKILL.md) | 1.598 | Uzmanlık alanı: kodlama ajanı LLM'lerinin artık akışı (residual stream) üzerinde doğrusal problar. Mevcut program özelliklerini (iyi biçimlendirilmiş olma, tam/kısmi doğruluk, regresyon) çözer ve gelecekteki düzenleme sonuçlarını yaklaşık 25 adım ileriye kadar tahmin eder. Silva, Tu & Monperrus 2026 (arXiv:2607.05188) çalışmasına dayanır. |
-| [`super-skill`](skills/super-skill/SKILL.md) | 2.096 | Titizlik + delegasyon sentezi. İki mod (titizlik / delegasyon), mod seçim akışı, doğrulama protokolü, 5 delegasyona özgü risk. **Kendi kendine gelişir**, 7 maddelik bir anayasa altında. |
+| [`think-like-gpt-5-6`](../skills/think-like-gpt-5-6/SKILL.md) | 1.547 | Tam titizlik çerçevesi: 7 adımlı döngü, 10 prensip, 20 satırlık risk kaydı, 8 doğrulama katmanı, 6 kabul + 10 red kriteri, 18 çekişmeli (adversarial) inceleme sorusu, 7 bölümlük teslim-öncesi kontrol listesi. Basit olmayan her görev için en iyisi. |
+| [`efficient-fable`](../skills/efficient-fable/SKILL.md) | 302 | Delegasyon deseni: orkestratör + ucuz alt-ajanlar. 5 adımlı desen, devir teslim (handoff) paketi formatı, doğrulama protokolü, paralelleştirilebilir işlerde 3-5 kat daha ucuz + 2-4 kat daha hızlı. |
+| [`skill-zero`](../skills/skill-zero/SKILL.md) | 1.598 | Uzmanlık alanı: kodlama ajanı LLM'lerinin artık akışı (residual stream) üzerinde doğrusal problar. Mevcut program özelliklerini (iyi biçimlendirilmiş olma, tam/kısmi doğruluk, regresyon) çözer ve gelecekteki düzenleme sonuçlarını yaklaşık 25 adım ileriye kadar tahmin eder. Silva, Tu & Monperrus 2026 (arXiv:2607.05188) çalışmasına dayanır. |
+| [`super-skill`](../skills/super-skill/SKILL.md) | 2.096 | Titizlik + delegasyon sentezi. İki mod (titizlik / delegasyon), mod seçim akışı, doğrulama protokolü, 5 delegasyona özgü risk. **Kendi kendine gelişir**, 7 maddelik bir anayasa altında. |
 
 ### Hangi skill ne zaman kullanılır
 
@@ -81,7 +81,7 @@ oluşturma, operasyonel eylemler, yüksek riskli rehberlik ve akıcı bir
 kara kutu cevaptan ziyade incelenebilir bir akıl yürütme istediğiniz
 her görev.
 
-Devamını okuyun: [skills/think-like-gpt-5-6/SKILL.md](skills/think-like-gpt-5-6/SKILL.md)
+Devamını okuyun: [skills/think-like-gpt-5-6/SKILL.md](../skills/think-like-gpt-5-6/SKILL.md)
 
 ### `/efficient-fable`
 
@@ -102,7 +102,7 @@ En uygun kullanım: bağımsız paralel parçalara bölünebilen, kod
 tabanı ağırlıklı işler. Basit görevler, yüksek riskli tek kaynaklı
 işler veya ucuz alt-ajanların bulunmadığı durumlar için atlayın.
 
-Devamını okuyun: [skills/efficient-fable/SKILL.md](skills/efficient-fable/SKILL.md)
+Devamını okuyun: [skills/efficient-fable/SKILL.md](../skills/efficient-fable/SKILL.md)
 
 ### `/skill-zero`
 
@@ -130,7 +130,7 @@ ters-U deseni), 4 kanonik özelliği, karıştırılmış-etiket kontrol
 disiplinini, çapraz-benchmark aktarım detayını ve 5 somut başarısızlık
 modunu içerir.
 
-Devamını okuyun: [skills/skill-zero/SKILL.md](skills/skill-zero/SKILL.md)
+Devamını okuyun: [skills/skill-zero/SKILL.md](../skills/skill-zero/SKILL.md)
 
 ### `/super-skill`
 
@@ -171,7 +171,7 @@ kendini budayabilir. Anayasa
 Herhangi bir tek maddenin başarısız olması = değişikliğin reddi.
 İstisna yok.
 
-Devamını okuyun: [skills/super-skill/SKILL.md](skills/super-skill/SKILL.md)
+Devamını okuyun: [skills/super-skill/SKILL.md](../skills/super-skill/SKILL.md)
 
 ## Birbirleriyle Nasıl Uyum Sağlıyorlar
 
@@ -258,7 +258,7 @@ npx skills@latest add anshmajumdar/skill-x --skill super-skill
 
 Ajan başına tam kurulum matrisi için (Claude Code, Codex, OpenCode,
 Copilot, ayrıca genel `cp -r` yedek yöntemi)
-[PLUGIN_INSTALL.md](PLUGIN_INSTALL.md) dosyasına bakın.
+[PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) dosyasına bakın.
 
 ### Yol B — Manuel kurulum (her ajan için çalışır)
 
@@ -303,12 +303,12 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 <br>
 
-![Self-evolving: detect, evidence, constitution check, apply, verify](media/banner.png)
+![Self-evolving: detect, evidence, constitution check, apply, verify](../media/banner.png)
 
 <br>
 
 `super-skill`, kendi kendini geliştiren tek skill'dir. Protokol
-[`skills/super-skill/references/self-evolution.md`](skills/super-skill/references/self-evolution.md)
+[`skills/super-skill/references/self-evolution.md`](../skills/super-skill/references/self-evolution.md)
 dosyasında bulunur. Tetikleyiciler:
 
 - **Açık**: "bu skill'i evrimleştir", "superskill evolve"
@@ -325,7 +325,7 @@ değişikliği kaydeder.
 
 ## Katkıda Bulunma
 
-Katkılara açığız. İş akışı için [CONTRIBUTING.md](CONTRIBUTING.md)
+Katkılara açığız. İş akışı için [CONTRIBUTING.md](../CONTRIBUTING.md)
 dosyasına ve kalite çıtası konusunda rehberlik için skill içindeki
 **kendi kendine evrim protokolüne** bakın. Kısa özet:
 
@@ -347,19 +347,19 @@ dosyasına ve kalite çıtası konusunda rehberlik için skill içindeki
 
 ## Lisans
 
-MIT. Bkz. [LICENSE](LICENSE).
+MIT. Bkz. [LICENSE](../LICENSE).
 
 ## İşaretçiler
 
-- [PLUGIN_INSTALL.md](PLUGIN_INSTALL.md) — ajan başına tam kurulum matrisi (Claude Code, Codex, OpenCode, Copilot, manuel)
-- [CONTRIBUTING.md](CONTRIBUTING.md) — bir skill'i nasıl ekleyebilir veya değiştirebilirsiniz
-- [LICENSE](LICENSE) — MIT
-- [SECURITY.md](SECURITY.md) — bir güvenlik sorununu nasıl bildirebilirsiniz
-- [CITATION.cff](CITATION.cff) — bu koleksiyona nasıl atıfta bulunulur
-- [.github/workflows/lint-skills.yml](.github/workflows/lint-skills.yml) — her skill'i lint eden CI
-- [scripts/lint-all.sh](scripts/lint-all.sh) — yerel eşdeğeri
-- [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json) — Claude Code eklenti manifestosu
-- [.codex-plugin/plugin.json](.codex-plugin/plugin.json) — Codex eklenti manifestosu
+- [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) — ajan başına tam kurulum matrisi (Claude Code, Codex, OpenCode, Copilot, manuel)
+- [CONTRIBUTING.md](../CONTRIBUTING.md) — bir skill'i nasıl ekleyebilir veya değiştirebilirsiniz
+- [LICENSE](../LICENSE) — MIT
+- [SECURITY.md](../SECURITY.md) — bir güvenlik sorununu nasıl bildirebilirsiniz
+- [CITATION.cff](../CITATION.cff) — bu koleksiyona nasıl atıfta bulunulur
+- [.github/workflows/lint-skills.yml](../.github/workflows/lint-skills.yml) — her skill'i lint eden CI
+- [scripts/lint-all.sh](../scripts/lint-all.sh) — yerel eşdeğeri
+- [.claude-plugin/marketplace.json](../.claude-plugin/marketplace.json) — Claude Code eklenti manifestosu
+- [.codex-plugin/plugin.json](../.codex-plugin/plugin.json) — Codex eklenti manifestosu
 
 ---
 

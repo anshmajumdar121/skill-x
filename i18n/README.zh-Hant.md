@@ -1,10 +1,10 @@
-[![English](https://img.shields.io/badge/English-Read-2b2b2b)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](README.ru.md)
+[![English](https://img.shields.io/badge/English-Read-2b2b2b)](../README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](README.ru.md)
 
-![Skill X](media/skill-x.gif)
+![Skill X](../media/skill-x.gif)
 
-[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
 [![Skills](https://img.shields.io/badge/skills-4-purple.svg)](#skills-at-a-glance)
-[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](skills/super-skill/references/self-evolution.md)
+[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](../skills/super-skill/references/self-evolution.md)
 
 一個小巧、可組合的代理技能（agent skills）集合，用於程式碼、研究與多代理協作。每個技能都是自成一體、以證據為基礎的，並附有漸進式揭露的參考文件。
 
@@ -38,10 +38,10 @@ mavis skill list
 
 | 技能 | 行數 | 功能說明 |
 |---|---|---|
-| [`think-like-gpt-5-6`](skills/think-like-gpt-5-6/SKILL.md) | 1,547 | 完整嚴謹框架：7 步驟循環、10 項原則、20 列風險登記表、8 層驗證、6 項核准準則 + 10 項拒絕準則、18 個對抗性審查問題、7 節交付前檢查清單。適用於任何非瑣碎任務。 |
-| [`efficient-fable`](skills/efficient-fable/SKILL.md) | 302 | 委派模式：協調者 + 低成本子代理。5 步驟模式、交接封包格式、驗證協定，在可平行化的工作上可省下 3-5 倍成本並快 2-4 倍。 |
-| [`skill-zero`](skills/skill-zero/SKILL.md) | 1,598 | 專項技能：在編碼代理 LLM 的殘差流（residual stream）上進行線性探針分析。解讀當前程式屬性（格式正確性、完全／部分正確性、回歸）並預測未來最多約 25 步的編輯結果。基於 Silva、Tu 與 Monperrus 2026 年的研究（arXiv:2607.05188）。 |
-| [`super-skill`](skills/super-skill/SKILL.md) | 2,096 | 嚴謹性與委派的綜合體。兩種模式（嚴謹 / 委派）、模式選擇流程、驗證協定、5 項委派專屬風險。**具備自我進化能力**，並受 7 條憲章條款約束。 |
+| [`think-like-gpt-5-6`](../skills/think-like-gpt-5-6/SKILL.md) | 1,547 | 完整嚴謹框架：7 步驟循環、10 項原則、20 列風險登記表、8 層驗證、6 項核准準則 + 10 項拒絕準則、18 個對抗性審查問題、7 節交付前檢查清單。適用於任何非瑣碎任務。 |
+| [`efficient-fable`](../skills/efficient-fable/SKILL.md) | 302 | 委派模式：協調者 + 低成本子代理。5 步驟模式、交接封包格式、驗證協定，在可平行化的工作上可省下 3-5 倍成本並快 2-4 倍。 |
+| [`skill-zero`](../skills/skill-zero/SKILL.md) | 1,598 | 專項技能：在編碼代理 LLM 的殘差流（residual stream）上進行線性探針分析。解讀當前程式屬性（格式正確性、完全／部分正確性、回歸）並預測未來最多約 25 步的編輯結果。基於 Silva、Tu 與 Monperrus 2026 年的研究（arXiv:2607.05188）。 |
+| [`super-skill`](../skills/super-skill/SKILL.md) | 2,096 | 嚴謹性與委派的綜合體。兩種模式（嚴謹 / 委派）、模式選擇流程、驗證協定、5 項委派專屬風險。**具備自我進化能力**，並受 7 條憲章條款約束。 |
 
 ### 該用哪個技能
 
@@ -61,7 +61,7 @@ mavis skill list
 
 適用於：多步驟程式設計、附引用的研究、產出物建立、營運性行動、高風險指引，以及任何你想要可檢視推理過程而非流暢黑盒答案的任務。
 
-延伸閱讀：[skills/think-like-gpt-5-6/SKILL.md](skills/think-like-gpt-5-6/SKILL.md)
+延伸閱讀：[skills/think-like-gpt-5-6/SKILL.md](../skills/think-like-gpt-5-6/SKILL.md)
 
 ### `/efficient-fable`
 
@@ -71,7 +71,7 @@ mavis skill list
 
 適用於：可拆分為獨立平行片段的大量程式碼相關工作。對於瑣碎任務、高風險的單一來源工作，或沒有低成本子代理可用時，則應跳過。
 
-延伸閱讀：[skills/efficient-fable/SKILL.md](skills/efficient-fable/SKILL.md)
+延伸閱讀：[skills/efficient-fable/SKILL.md](../skills/efficient-fable/SKILL.md)
 
 ### `/skill-zero`
 
@@ -85,7 +85,7 @@ mavis skill list
 
 此技能包含論文中的具體數據（AUC 0.83、視野 k≈25、中間層倒 U 型模式）、4 項標準屬性、打亂標籤的對照組規範、跨基準遷移細節，以及 5 種具體的失效模式。
 
-延伸閱讀：[skills/skill-zero/SKILL.md](skills/skill-zero/SKILL.md)
+延伸閱讀：[skills/skill-zero/SKILL.md](../skills/skill-zero/SKILL.md)
 
 ### `/super-skill`
 
@@ -108,7 +108,7 @@ mavis skill list
 
 任一條款不符 = 變更遭拒。沒有例外。
 
-延伸閱讀：[skills/super-skill/SKILL.md](skills/super-skill/SKILL.md)
+延伸閱讀：[skills/super-skill/SKILL.md](../skills/super-skill/SKILL.md)
 
 ## 各技能如何協同運作
 
@@ -186,7 +186,7 @@ codex plugin install anshmajumdar/skill-x
 npx skills@latest add anshmajumdar/skill-x --skill super-skill
 ```
 
-完整的各代理安裝對照表（Claude Code、Codex、OpenCode、Copilot，以及通用的 `cp -r` 備用方式）請見 [PLUGIN_INSTALL.md](PLUGIN_INSTALL.md)。
+完整的各代理安裝對照表（Claude Code、Codex、OpenCode、Copilot，以及通用的 `cp -r` 備用方式）請見 [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md)。
 
 ### 路徑 B — 手動安裝（適用於任何代理）
 
@@ -231,12 +231,12 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 <br>
 
-![Self-evolving: detect, evidence, constitution check, apply, verify](media/banner.png)
+![Self-evolving: detect, evidence, constitution check, apply, verify](../media/banner.png)
 
 <br>
 
 `super-skill` 是唯一具備自我進化能力的技能。相關協定位於
-[`skills/super-skill/references/self-evolution.md`](skills/super-skill/references/self-evolution.md)。
+[`skills/super-skill/references/self-evolution.md`](../skills/super-skill/references/self-evolution.md)。
 觸發條件：
 
 - **明確指令**：「evolve this skill」、「superskill evolve」
@@ -248,7 +248,7 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 ## 貢獻方式
 
-我們歡迎貢獻。工作流程請見 [CONTRIBUTING.md](CONTRIBUTING.md)，關於品質標準的指引，請參考技能內建的**自我進化協定**。簡而言之：
+我們歡迎貢獻。工作流程請見 [CONTRIBUTING.md](../CONTRIBUTING.md)，關於品質標準的指引，請參考技能內建的**自我進化協定**。簡而言之：
 
 1. 每個技能都應自成一體，請保持這個特性。
 2. 參考文件採漸進式揭露 — `SKILL.md` 是前導說明，`references/*.md` 是詳細內容。
@@ -267,19 +267,19 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 ## 授權條款
 
-MIT。詳見 [LICENSE](LICENSE)。
+MIT。詳見 [LICENSE](../LICENSE)。
 
 ## 相關連結
 
-- [PLUGIN_INSTALL.md](PLUGIN_INSTALL.md) — 完整的各代理安裝對照表（Claude Code、Codex、OpenCode、Copilot、手動安裝）
-- [CONTRIBUTING.md](CONTRIBUTING.md) — 如何新增或修改技能
-- [LICENSE](LICENSE) — MIT
-- [SECURITY.md](SECURITY.md) — 如何回報安全性問題
-- [CITATION.cff](CITATION.cff) — 如何引用本集合
-- [.github/workflows/lint-skills.yml](.github/workflows/lint-skills.yml) — 用於檢查每個技能的 CI
-- [scripts/lint-all.sh](scripts/lint-all.sh) — 本地端等效工具
-- [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json) — Claude Code 外掛清單
-- [.codex-plugin/plugin.json](.codex-plugin/plugin.json) — Codex 外掛清單
+- [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) — 完整的各代理安裝對照表（Claude Code、Codex、OpenCode、Copilot、手動安裝）
+- [CONTRIBUTING.md](../CONTRIBUTING.md) — 如何新增或修改技能
+- [LICENSE](../LICENSE) — MIT
+- [SECURITY.md](../SECURITY.md) — 如何回報安全性問題
+- [CITATION.cff](../CITATION.cff) — 如何引用本集合
+- [.github/workflows/lint-skills.yml](../.github/workflows/lint-skills.yml) — 用於檢查每個技能的 CI
+- [scripts/lint-all.sh](../scripts/lint-all.sh) — 本地端等效工具
+- [.claude-plugin/marketplace.json](../.claude-plugin/marketplace.json) — Claude Code 外掛清單
+- [.codex-plugin/plugin.json](../.codex-plugin/plugin.json) — Codex 外掛清單
 
 ---
 

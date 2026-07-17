@@ -1,10 +1,10 @@
-[![English](https://img.shields.io/badge/English-Read-2b2b2b)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](README.ru.md)
+[![English](https://img.shields.io/badge/English-Read-2b2b2b)](../README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](README.ru.md)
 
-![Skill X](media/skill-x.gif)
+![Skill X](../media/skill-x.gif)
 
-[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
 [![Skills](https://img.shields.io/badge/skills-4-purple.svg)](#skills-at-a-glance)
-[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](skills/super-skill/references/self-evolution.md)
+[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](../skills/super-skill/references/self-evolution.md)
 
 一个小巧、可组合的智能体技能集合，涵盖代码、研究和多智能体编排。每个技能都是自包含的、基于证据的，并附带渐进式披露的参考文档。
 
@@ -38,10 +38,10 @@ mavis skill list
 
 | 技能 | 行数 | 功能说明 |
 |---|---|---|
-| [`think-like-gpt-5-6`](skills/think-like-gpt-5-6/SKILL.md) | 1,547 | 完整严谨框架：7 步循环、10 条原则、20 行风险登记表、8 层验证、6 条验收 + 10 条拒收标准、18 个对抗性审查问题、7 部分交付前检查清单。适用于任何非平凡任务。 |
-| [`efficient-fable`](skills/efficient-fable/SKILL.md) | 302 | 委派模式：编排者 + 低成本子智能体。5 步模式、交接包格式、审核协议，在可并行化工作上成本降低 3-5 倍、速度提升 2-4 倍。 |
-| [`skill-zero`](skills/skill-zero/SKILL.md) | 1,598 | 专精技能：对编码智能体 LLM 的残差流进行线性探测。解码当前程序属性（良构性、完全/部分正确性、回归）并预测未来最多约 25 步的编辑结果。基于 Silva, Tu & Monperrus 2026（arXiv:2607.05188）。 |
-| [`super-skill`](skills/super-skill/SKILL.md) | 2,096 | 严谨性与委派的综合体。两种模式（严谨模式/委派模式）、模式选择流程、审核协议、5 类委派专属风险。**自我进化**，受 7 条准则宪章约束。 |
+| [`think-like-gpt-5-6`](../skills/think-like-gpt-5-6/SKILL.md) | 1,547 | 完整严谨框架：7 步循环、10 条原则、20 行风险登记表、8 层验证、6 条验收 + 10 条拒收标准、18 个对抗性审查问题、7 部分交付前检查清单。适用于任何非平凡任务。 |
+| [`efficient-fable`](../skills/efficient-fable/SKILL.md) | 302 | 委派模式：编排者 + 低成本子智能体。5 步模式、交接包格式、审核协议，在可并行化工作上成本降低 3-5 倍、速度提升 2-4 倍。 |
+| [`skill-zero`](../skills/skill-zero/SKILL.md) | 1,598 | 专精技能：对编码智能体 LLM 的残差流进行线性探测。解码当前程序属性（良构性、完全/部分正确性、回归）并预测未来最多约 25 步的编辑结果。基于 Silva, Tu & Monperrus 2026（arXiv:2607.05188）。 |
+| [`super-skill`](../skills/super-skill/SKILL.md) | 2,096 | 严谨性与委派的综合体。两种模式（严谨模式/委派模式）、模式选择流程、审核协议、5 类委派专属风险。**自我进化**，受 7 条准则宪章约束。 |
 
 ### 该使用哪个技能
 
@@ -61,7 +61,7 @@ mavis skill list
 
 适用场景：多步骤编码、带引用的研究、成果创建、操作性行动、高风险指导，以及任何你希望获得可检查推理过程而非流畅黑箱答案的任务。
 
-阅读更多：[skills/think-like-gpt-5-6/SKILL.md](skills/think-like-gpt-5-6/SKILL.md)
+阅读更多：[skills/think-like-gpt-5-6/SKILL.md](../skills/think-like-gpt-5-6/SKILL.md)
 
 ### `/efficient-fable`
 
@@ -71,7 +71,7 @@ mavis skill list
 
 适用场景：可拆分为独立并行片段的大量代码库工作。对于琐碎任务、高风险单一来源工作，或没有低成本子智能体可用的情况，请跳过。
 
-阅读更多：[skills/efficient-fable/SKILL.md](skills/efficient-fable/SKILL.md)
+阅读更多：[skills/efficient-fable/SKILL.md](../skills/efficient-fable/SKILL.md)
 
 ### `/skill-zero`
 
@@ -85,7 +85,7 @@ mavis skill list
 
 该技能包含论文中的具体数值（AUC 0.83，视野 k≈25，中间层倒 U 型模式）、4 个规范属性、打乱标签的对照规范、跨基准迁移细节，以及 5 种具体失效模式。
 
-阅读更多：[skills/skill-zero/SKILL.md](skills/skill-zero/SKILL.md)
+阅读更多：[skills/skill-zero/SKILL.md](../skills/skill-zero/SKILL.md)
 
 ### `/super-skill`
 
@@ -109,7 +109,7 @@ mavis skill list
 
 任何一条准则未通过 = 拒绝该变更。没有例外。
 
-阅读更多：[skills/super-skill/SKILL.md](skills/super-skill/SKILL.md)
+阅读更多：[skills/super-skill/SKILL.md](../skills/super-skill/SKILL.md)
 
 ## 它们如何协同工作
 
@@ -187,7 +187,7 @@ codex plugin install anshmajumdar/skill-x
 npx skills@latest add anshmajumdar/skill-x --skill super-skill
 ```
 
-完整的按智能体安装矩阵（Claude Code、Codex、OpenCode、Copilot，以及通用的 `cp -r` 兜底方案）请参见 [PLUGIN_INSTALL.md](PLUGIN_INSTALL.md)。
+完整的按智能体安装矩阵（Claude Code、Codex、OpenCode、Copilot，以及通用的 `cp -r` 兜底方案）请参见 [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md)。
 
 ### 路径 B —— 手动安装（适用于任何智能体）
 
@@ -232,12 +232,12 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 <br>
 
-![Self-evolving: detect, evidence, constitution check, apply, verify](media/banner.png)
+![Self-evolving: detect, evidence, constitution check, apply, verify](../media/banner.png)
 
 <br>
 
 `super-skill` 是唯一会自我进化的技能。该协议位于
-[`skills/super-skill/references/self-evolution.md`](skills/super-skill/references/self-evolution.md)。触发条件：
+[`skills/super-skill/references/self-evolution.md`](../skills/super-skill/references/self-evolution.md)。触发条件：
 
 - **显式触发**："evolve this skill"、"superskill evolve"
 - **过时内容检测**：某个具体数字、链接或说法已被证实过时
@@ -248,7 +248,7 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 ## 贡献
 
-我们欢迎贡献。工作流程请参见 [CONTRIBUTING.md](CONTRIBUTING.md)，质量标准的指导则请参考技能内置的**自我进化协议**。简要版本如下：
+我们欢迎贡献。工作流程请参见 [CONTRIBUTING.md](../CONTRIBUTING.md)，质量标准的指导则请参考技能内置的**自我进化协议**。简要版本如下：
 
 1. 每个技能都是自包含的。请保持这一点。
 2. 参考文档采用渐进式披露 —— `SKILL.md` 是概览，`references/*.md` 是细节。
@@ -267,19 +267,19 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 ## 许可证
 
-MIT。详见 [LICENSE](LICENSE)。
+MIT。详见 [LICENSE](../LICENSE)。
 
 ## 相关链接
 
-- [PLUGIN_INSTALL.md](PLUGIN_INSTALL.md) —— 完整的按智能体安装矩阵（Claude Code、Codex、OpenCode、Copilot、手动安装）
-- [CONTRIBUTING.md](CONTRIBUTING.md) —— 如何添加或修改技能
-- [LICENSE](LICENSE) —— MIT
-- [SECURITY.md](SECURITY.md) —— 如何报告安全问题
-- [CITATION.cff](CITATION.cff) —— 如何引用本合集
-- [.github/workflows/lint-skills.yml](.github/workflows/lint-skills.yml) —— 对每个技能进行 lint 检查的 CI
-- [scripts/lint-all.sh](scripts/lint-all.sh) —— 本地等效脚本
-- [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json) —— Claude Code 插件清单
-- [.codex-plugin/plugin.json](.codex-plugin/plugin.json) —— Codex 插件清单
+- [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) —— 完整的按智能体安装矩阵（Claude Code、Codex、OpenCode、Copilot、手动安装）
+- [CONTRIBUTING.md](../CONTRIBUTING.md) —— 如何添加或修改技能
+- [LICENSE](../LICENSE) —— MIT
+- [SECURITY.md](../SECURITY.md) —— 如何报告安全问题
+- [CITATION.cff](../CITATION.cff) —— 如何引用本合集
+- [.github/workflows/lint-skills.yml](../.github/workflows/lint-skills.yml) —— 对每个技能进行 lint 检查的 CI
+- [scripts/lint-all.sh](../scripts/lint-all.sh) —— 本地等效脚本
+- [.claude-plugin/marketplace.json](../.claude-plugin/marketplace.json) —— Claude Code 插件清单
+- [.codex-plugin/plugin.json](../.codex-plugin/plugin.json) —— Codex 插件清单
 
 ---
 

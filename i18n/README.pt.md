@@ -1,10 +1,10 @@
-[![English](https://img.shields.io/badge/English-Read-2b2b2b)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](README.ru.md)
+[![English](https://img.shields.io/badge/English-Read-2b2b2b)](../README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](README.ru.md)
 
-![Skill X](media/skill-x.gif)
+![Skill X](../media/skill-x.gif)
 
-[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
 [![Skills](https://img.shields.io/badge/skills-4-purple.svg)](#skills-at-a-glance)
-[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](skills/super-skill/references/self-evolution.md)
+[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](../skills/super-skill/references/self-evolution.md)
 
 Uma coleção pequena e componível de skills de agente para código, pesquisa
 e orquestração multiagente. Cada skill é autocontida, baseada em evidências,
@@ -43,10 +43,10 @@ mavis skill list
 
 | Skill | Linhas | O que faz |
 |---|---|---|
-| [`think-like-gpt-5-6`](skills/think-like-gpt-5-6/SKILL.md) | 1.547 | Framework de rigor completo: loop de 7 etapas, 10 princípios, registro de riscos com 20 linhas, 8 camadas de validação, 6 critérios de aceitação + 10 de rejeição, 18 perguntas de revisão adversarial, checklist de pré-entrega com 7 seções. Ideal para qualquer tarefa não trivial. |
-| [`efficient-fable`](skills/efficient-fable/SKILL.md) | 302 | Padrão de delegação: orquestrador + subagentes de baixo custo. Padrão de 5 etapas, formato de pacote de transferência (handoff), protocolo de verificação, 3-5× mais barato e 2-4× mais rápido em trabalhos paralelizáveis. |
-| [`skill-zero`](skills/skill-zero/SKILL.md) | 1.598 | Especialista: sondas lineares (linear probes) no fluxo residual de LLMs de agentes de codificação. Decodifica propriedades do programa atual (boa formação, correção total/parcial, regressão) e prevê resultados de edições futuras até ~25 passos à frente. Baseado em Silva, Tu & Monperrus 2026 (arXiv:2607.05188). |
-| [`super-skill`](skills/super-skill/SKILL.md) | 2.096 | Síntese de rigor + delegação. Dois modos (rigor / delegação), fluxo de seleção de modo, protocolo de verificação, 5 riscos específicos de delegação. **Autoevolutiva** sob uma constituição de 7 cláusulas. |
+| [`think-like-gpt-5-6`](../skills/think-like-gpt-5-6/SKILL.md) | 1.547 | Framework de rigor completo: loop de 7 etapas, 10 princípios, registro de riscos com 20 linhas, 8 camadas de validação, 6 critérios de aceitação + 10 de rejeição, 18 perguntas de revisão adversarial, checklist de pré-entrega com 7 seções. Ideal para qualquer tarefa não trivial. |
+| [`efficient-fable`](../skills/efficient-fable/SKILL.md) | 302 | Padrão de delegação: orquestrador + subagentes de baixo custo. Padrão de 5 etapas, formato de pacote de transferência (handoff), protocolo de verificação, 3-5× mais barato e 2-4× mais rápido em trabalhos paralelizáveis. |
+| [`skill-zero`](../skills/skill-zero/SKILL.md) | 1.598 | Especialista: sondas lineares (linear probes) no fluxo residual de LLMs de agentes de codificação. Decodifica propriedades do programa atual (boa formação, correção total/parcial, regressão) e prevê resultados de edições futuras até ~25 passos à frente. Baseado em Silva, Tu & Monperrus 2026 (arXiv:2607.05188). |
+| [`super-skill`](../skills/super-skill/SKILL.md) | 2.096 | Síntese de rigor + delegação. Dois modos (rigor / delegação), fluxo de seleção de modo, protocolo de verificação, 5 riscos específicos de delegação. **Autoevolutiva** sob uma constituição de 7 cláusulas. |
 
 ### Quando usar qual skill
 
@@ -80,7 +80,7 @@ criação de artefatos, ações operacionais, orientação de alto risco, e
 qualquer tarefa em que você queira um raciocínio inspecionável em vez
 de uma resposta fluente de caixa-preta.
 
-Leia mais: [skills/think-like-gpt-5-6/SKILL.md](skills/think-like-gpt-5-6/SKILL.md)
+Leia mais: [skills/think-like-gpt-5-6/SKILL.md](../skills/think-like-gpt-5-6/SKILL.md)
 
 ### `/efficient-fable`
 
@@ -103,7 +103,7 @@ partes paralelas independentes. Evite para tarefas triviais, trabalho
 de fonte única de alto risco, ou quando não há subagentes baratos
 disponíveis.
 
-Leia mais: [skills/efficient-fable/SKILL.md](skills/efficient-fable/SKILL.md)
+Leia mais: [skills/efficient-fable/SKILL.md](../skills/efficient-fable/SKILL.md)
 
 ### `/skill-zero`
 
@@ -133,7 +133,7 @@ propriedades canônicas, a disciplina de controle com rótulos
 embaralhados, o detalhe de transferência entre benchmarks, e 5 modos de
 falha concretos.
 
-Leia mais: [skills/skill-zero/SKILL.md](skills/skill-zero/SKILL.md)
+Leia mais: [skills/skill-zero/SKILL.md](../skills/skill-zero/SKILL.md)
 
 ### `/super-skill`
 
@@ -174,7 +174,7 @@ impede conteúdo de baixa qualidade. A constituição (em
 
 Qualquer cláusula que falhe = mudança rejeitada. Sem exceções.
 
-Leia mais: [skills/super-skill/SKILL.md](skills/super-skill/SKILL.md)
+Leia mais: [skills/super-skill/SKILL.md](../skills/super-skill/SKILL.md)
 
 ## Como Elas se Encaixam
 
@@ -263,7 +263,7 @@ codex plugin install anshmajumdar/skill-x
 npx skills@latest add anshmajumdar/skill-x --skill super-skill
 ```
 
-Veja [PLUGIN_INSTALL.md](PLUGIN_INSTALL.md) para a matriz completa de
+Veja [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) para a matriz completa de
 instalação por agente (Claude Code, Codex, OpenCode, Copilot, além do
 fallback genérico `cp -r`).
 
@@ -310,13 +310,13 @@ node $(mavis skill show skill-creator | python3 -c 'import json,sys;print(json.l
 
 <br>
 
-![Autoevolutiva: detectar, evidenciar, verificar constituição, aplicar, verificar](media/banner.png)
+![Autoevolutiva: detectar, evidenciar, verificar constituição, aplicar, verificar](../media/banner.png)
 
 <br>
 
 `super-skill` é a única skill que evolui a si mesma. O protocolo está
 em
-[`skills/super-skill/references/self-evolution.md`](skills/super-skill/references/self-evolution.md).
+[`skills/super-skill/references/self-evolution.md`](../skills/super-skill/references/self-evolution.md).
 Gatilhos:
 
 - **Explícito**: "evolua esta skill", "superskill evolve"
@@ -333,7 +333,7 @@ O changelog no topo de `super-skill/SKILL.md` registra cada mudança.
 
 ## Contribuindo
 
-Contribuições são bem-vindas. Veja [CONTRIBUTING.md](CONTRIBUTING.md)
+Contribuições são bem-vindas. Veja [CONTRIBUTING.md](../CONTRIBUTING.md)
 para o fluxo de trabalho, e o **protocolo de autoevolução** embutido na
 skill para orientação sobre o padrão de qualidade. Resumo:
 
@@ -356,19 +356,19 @@ skill para orientação sobre o padrão de qualidade. Resumo:
 
 ## Licença
 
-MIT. Veja [LICENSE](LICENSE).
+MIT. Veja [LICENSE](../LICENSE).
 
 ## Referências
 
-- [PLUGIN_INSTALL.md](PLUGIN_INSTALL.md) — matriz completa de instalação por agente (Claude Code, Codex, OpenCode, Copilot, manual)
-- [CONTRIBUTING.md](CONTRIBUTING.md) — como adicionar ou modificar uma skill
-- [LICENSE](LICENSE) — MIT
-- [SECURITY.md](SECURITY.md) — como reportar um problema de segurança
-- [CITATION.cff](CITATION.cff) — como citar esta coleção
-- [.github/workflows/lint-skills.yml](.github/workflows/lint-skills.yml) — CI que linta cada skill
-- [scripts/lint-all.sh](scripts/lint-all.sh) — equivalente local
-- [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json) — manifesto do plugin Claude Code
-- [.codex-plugin/plugin.json](.codex-plugin/plugin.json) — manifesto do plugin Codex
+- [PLUGIN_INSTALL.md](../PLUGIN_INSTALL.md) — matriz completa de instalação por agente (Claude Code, Codex, OpenCode, Copilot, manual)
+- [CONTRIBUTING.md](../CONTRIBUTING.md) — como adicionar ou modificar uma skill
+- [LICENSE](../LICENSE) — MIT
+- [SECURITY.md](../SECURITY.md) — como reportar um problema de segurança
+- [CITATION.cff](../CITATION.cff) — como citar esta coleção
+- [.github/workflows/lint-skills.yml](../.github/workflows/lint-skills.yml) — CI que linta cada skill
+- [scripts/lint-all.sh](../scripts/lint-all.sh) — equivalente local
+- [.claude-plugin/marketplace.json](../.claude-plugin/marketplace.json) — manifesto do plugin Claude Code
+- [.codex-plugin/plugin.json](../.codex-plugin/plugin.json) — manifesto do plugin Codex
 
 ---
 
