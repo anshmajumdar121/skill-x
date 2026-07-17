@@ -1,4 +1,4 @@
-[![English](https://img.shields.io/badge/English-Read-2b2b2b)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](i18n/README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](i18n/README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](i18n/README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](i18n/README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](i18n/README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](i18n/README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](i18n/README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](i18n/README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](i18n/README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](i18n/README.ru.md)
+
 
 # Skill X — Agent Skills for Claude Code, Codex & GitHub Copilot
 
@@ -6,7 +6,7 @@
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-4-purple.svg)](#skills-at-a-glance)
-[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](skills/super-skill/references/self-evolution.md)
+[![Self-evolving](https://img.shields.io/badge/super--skill-self--evolving-brightgreen.svg)](skills/super-skill/references/self-evolution.md) [![English](https://img.shields.io/badge/English-Read-2b2b2b)](README.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-Read-e67e22)](i18n/README.es.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-Read-27ae60)](i18n/README.pt.md) [![日本語](https://img.shields.io/badge/日本語-Read-16a085)](i18n/README.ja.md) [![한국어](https://img.shields.io/badge/한국어-Read-2980b9)](i18n/README.ko.md) [![Deutsch](https://img.shields.io/badge/Deutsch-Read-8e44ad)](i18n/README.de.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-Read-2c3e50)](i18n/README.fr.md) [![Türkçe](https://img.shields.io/badge/T%C3%BCrk%C3%A7e-Read-c0392b)](i18n/README.tr.md) [![繁體中文](https://img.shields.io/badge/繁體中文-Read-d35400)](i18n/README.zh-Hant.md) [![简体中文](https://img.shields.io/badge/简体中文-Read-e74c3c)](i18n/README.zh-Hans.md) [![Русский](https://img.shields.io/badge/Русский-Read-7f8c8d)](i18n/README.ru.md)
 
 **Skill X** is an open-source collection of **agent skills for Claude
 Code, Codex, GitHub Copilot, and other coding agents**. It helps agents
